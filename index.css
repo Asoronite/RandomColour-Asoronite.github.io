@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: darkslateblue; */
+}
+#all {
+  display: flex;
+  flex-direction: column;
+}
+#text {
+  color: black;
+  text-shadow: 0 0 15px #ffffff;
+  color: black;
+  font-weight: bolder;
+}
+#display {
+  justify-self: center;
+  text-align: center;
+  margin-top: 20%;
+  padding: 30px;
+}
+#btn {
+  color: antiquewhite;
+  background-color: black;
+  border-radius: 5%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
